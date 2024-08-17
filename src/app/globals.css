@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+ background-color: ;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+header{
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  color: white;
+ top: 0;
+  background-color:black ;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+
+}
+footer{
+  width: 100%;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  background-color:rgb(28, 27, 27);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+ .pagediv{
+  background-image: url("images\ of\ jane.jpeg");
+background-size:cover;
+height: 100vh;
+  
+} 
+.ourdiv{
+  height: 550px;
+}
+
+
